@@ -1,5 +1,5 @@
 {
-    "name": "slush-ts-boilerplate",
+    "name": "@mbriggs/slush-ts-boilerplate",
     "description": "Generate basic typescript setup",
     "version": "0.1.0",
     "homepage": "https://github.com/mbriggs/slush-ts-boilerplate",
