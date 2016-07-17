@@ -7,7 +7,7 @@
   "scripts": {
     "test": "ts-node ./node_modules/.bin/tape test/** | tap-notify | tap-difflet",
     "test:w": "nodemon -e js,ts --watch lib --watch test --exec npm test",
-    "clean": "rm -rf dist && rm -f layout-utils.d.ts",
+    "clean": "rm -rf dist && rm -f <%= appName %>.d.ts",
     "compile": "npm run clean && tsc --outDir dist && npm run generate-typings",
     "compile:w": "npm run clean && tsc --watch --outDir dist",
     "generate-typings": "dts-bundle --name <%= appName %> --out <%= appName %>.d.ts --main ./dist/index.d.ts --baseDir dist --removeSource"
