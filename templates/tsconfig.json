@@ -9,6 +9,7 @@
     "noImplicitAny": true,
     "declaration": true,
     "noFallthroughCasesInSwitch": true,
+    "lib": ["es5", "dom", "es2015"],
     "sourceMap": true
   },
   "exclude": [
